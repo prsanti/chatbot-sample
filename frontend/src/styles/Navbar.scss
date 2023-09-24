@@ -1,0 +1,47 @@
+// Navbar.scss
+$navbar-bg-color: #333;
+$navbar-text-color: #fff;
+$navbar-link-hover-color: #fff;
+
+.navbar {
+  background-color: $navbar-bg-color;
+  color: $navbar-text-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+
+  .logo {
+    a {
+      color: $navbar-text-color;
+      text-decoration: none;
+      font-size: 24px;
+      font-weight: bold;
+    }
+  }
+
+  .App-logo {
+    height: 50px;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+    li {
+      padding: 0;
+      margin: 0;
+
+      a {
+        color: $navbar-text-color;
+        text-decoration: none;
+        font-weight: 500;
+
+        &:hover {
+          border-bottom: 2px solid $navbar-link-hover-color;
+        }
+      }
+    }
+  }
+}
