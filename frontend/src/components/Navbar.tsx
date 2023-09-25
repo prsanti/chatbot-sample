@@ -1,8 +1,5 @@
 import "../styles/Navbar.scss";
 import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
   Link
 } from 'react-router-dom';
 import logo from '../logo.svg';
@@ -12,6 +9,9 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="logo">
         <img src={logo} className="App-logo" alt="logo" />
+      </div>
+      <div>
+        <h1>Chatbot</h1>
       </div>
       <ul className="nav-links">
         <li>

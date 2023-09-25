@@ -1,0 +1,38 @@
+$user-message-box: #1F8AFF;
+// green variant #39FF5A
+$bot-message-box: #fff;
+$message-text: white;
+$test: #ff0000;
+
+.chat-interface {
+  // background-color: $test;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .message-box {
+    height: 750px;
+    width: 500px;
+    outline: 5px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    .messages {
+      height: 80%;
+      width: 90%;
+      outline: 5px solid red;
+      margin: auto;
+      padding: auto;
+    }
+  
+    .user-textbox {
+      height: 10%;
+      width: 90%;
+      outline: 5px solid green;
+      margin: auto;
+    }
+  }
+}

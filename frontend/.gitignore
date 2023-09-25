@@ -11,6 +11,12 @@
 # production
 /build
 
+# components
+src/components/ChatInterface.tsx
+src/styles/ChatInterface.scss
+src/components/Message.tsx
+src/styles/Message.scss
+
 # misc
 .DS_Store
 .env.local
